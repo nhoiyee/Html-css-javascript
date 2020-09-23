@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#main_nav{
+    margin: 20px;
+    padding: 10px;
+    border-width: 10px 0;
+    border-color: blue;
+    border-style: solid;
+}
+
+#main_nav a{
+    text-decoration: none;
+    padding: 0 20px;
+    text-transform: uppercase;
+    color: crimson;
+    font-size: 12;
+    font-weight: bold;
+
+}
+
+header p{
+    font-style: italic;
+    color: darkgoldenrod;
+    font-size: 16px;
+
+}
+
+main{
+    clear: both;
+    display: block;
+    padding: 10px 60px;
+
+}
+
+article{
+    margin-top: 20px;
+    width: 70%;
+    float: left;
+    padding: 20px;
+}
+
+article p{
+    color: darkmagenta;
+}
+
+section{
+    margin-top: 40px;
+    clear: both;
+    display: block;
+}
+
+section p {
+    margin-top: 10px;
+}
+
+
+figure img{
+    float: left;
+    width: 400px;
+    height: 250px;
+    margin: 20px 20px 0 0;
+   
+}
+
+figure figcaption{
+    
+    color: darkslateblue;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+aside{
+    width: 20%;
+    padding: 20px;
+    text-align: left;
+    float: right;
+
+}
+
+aside img{
+    width: 90px;
+    height: 100px;
+    border-radius: 60%;
+    margin-bottom: 30px;
+}
+
+aside p{
+    margin-bottom: 10px;
+}
+
+
+
+#social-icons{
+    margin-bottom: 20px;
+}
+#social-icons i{
+    padding: 0 2px;
+    color: goldenrod;
+    font-size: 18px;
+}
+
+#author_name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+aside p{
+    font-size: 16px;
+    color: darkcyan
+}
+footer{
+    width: 100%;
+    background: goldenrod;
+    display: inline-block;
+    padding: 20px 80px;
+    text-align: left;
+}
+
+footer p{
+    padding: 2px;
+}
