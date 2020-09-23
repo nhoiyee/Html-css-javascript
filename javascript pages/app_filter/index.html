@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<p><h2>Filter from all ages</h2></p>
+<p>Available ages: 12, 33, 22, 40, 18, 67, 2, 14, 27</p>
+
+<p>Minimum age: <input type="number" id="ageToCheck" value="18"></p>
+
+
+<button class="btn btn-primary" onclick="myFunction()"> click me</button>
+<p>All ages above minimum: <span id="demo"></span></p>
+
+<script>
+var ages = [12, 33, 22, 40, 18, 67, 2, 14, 27];
+
+function checkAdult(age) {
+  return age >= document.getElementById("ageToCheck").value;
+}
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = ages.filter(checkAdult);
+}
+
+
+
+</script>
+
+
+</body>
+</html>
+

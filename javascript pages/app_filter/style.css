@@ -1,0 +1,23 @@
+.container-1 {
+    border: 1px solid orange;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.flex-box-container-1 {
+    display: flex;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.flex-box-container-1 div{
+    padding: 10px;
+    
+
+}

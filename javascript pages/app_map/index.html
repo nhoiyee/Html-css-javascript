@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    
+
+</head>
+
+<div class="flex-box-container-1">
+ 
+
+<p><h2>Get your neighbors' names</h2></p></div>
+
+<p>What are the full names for: <br> Joe <br> Sue <br> Jolene?</p>
+
+
+
+
+<button class="btn btn-success" onclick="myFunction()"> click me</button>
+<p><br>Full names: <br> <span id="demo"></span></p>
+
+<script>
+  
+// *map() method: creates a new array and call the function for every element once in order.
+//does not change the original array, does not execute the function without values.
+
+var persons = [
+  {firstname : "Joe", lastname: "Tang" + "<br>"},
+  {firstname : "Sue", lastname: "Chan"+ "<br>"},
+  {firstname : "Jolene", lastname: "Foo"+ "<br>"}
+];
+
+
+function getFullName(item) {
+  var fullname = [item.firstname,item.lastname].join(" ");
+  return fullname;
+}
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = persons.map(getFullName);
+}
+
+
+
+</script>
+
+
+</body>
+</html>
+
