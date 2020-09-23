@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,600;1,100&display=swap');
+
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+li, a, button {
+    font-family: "Montserrat", semi-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* put the words to right side in one line */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.logo{
+    cursor: pointer;
+    order: 3;
+    margin-left: auto;
+}
+
+.nav_link{
+    list-style: none;
+}
+
+/* put 3 words to :horizontal */
+.nav_link li {
+    display: inline-block;
+    padding:0px 20px;
+}
+
+.nav_link li: nth-child(){
+    
+    padding:0 20px 0 0;
+}
+
+.nav_link li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_link li a:hover{
+    color: rgb(207, 226, 178);
+}
+
+.cta{
+    order:2;
+
+}
+
+button{
+    margin-left: 20px;
+    padding:9px 25px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: goldenrod;
+}
