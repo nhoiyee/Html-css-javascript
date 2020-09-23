@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: 'Noto Sans SC', sans-serif;
+    background-color: #f5fcc1;
+    color: darkblue;
+}
+
+/*css for header*/
+.header{
+    background-color: #ffe2ff;
+    padding: 25px 0;
+}
+
+.container{
+    background-color: azure;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.logo{
+    flex-basis: 25%;
+    
+    
+}
+.navbar{
+    flex-basis: 25%;
+    
+    
+}
+    
+.logo a{
+    padding: 20px;
+    display: inline-block;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.navbar ul li a{
+    background-color: aquamarine;
+    color: 216353;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    
+}
+
+.distance {
+    margin: 35px 0;
+             
+
+}
+
+.flex-3-column{
+    flex-basis: 31%;
+    
+}
+
+h3{
+    font-size: 14px;
+    margin: 15px 0;
+    padding: 0 10px;
+}
+
+.read-more,.read-more a{
+    color: #cc0e74;
+    text-decoration: none;
+    position: relative;
+    
+}
+
+p{
+    margin: 15px 0;
+    padding: 0 10px;
+    
+}
+
+.read-more a::after{
+    font-family: FontAwesome;
+    content: "\f101";
+    position: relative;
+    top: 1px;
+    right: -10px;
+}
+    
+.flex-half-column{
+    flex-basis: 48%;
+}
+
+h1{
+    color: #790c5a;
+    padding: 0 10px;
+}
+
+/*footer*/
+
+.footer-top{
+    background-color: #424874;
+    padding: 30px 0;
+}
+
+.flex-4-column{
+    flex-basis: 22%;
+}
+
+h4{
+    color: #f57b51;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+.footer-top ul{
+    list-style: none;
+    
+    
+}
+.footer-top ul li a {
+    color: #f4eeff;
+    text-decoration: none;
+}
+
+.footer-top ul li{
+    margin: 0 0 5px 0;
+    padding: 0 0 5px 0;
+    border-bottom: 0.5px solid #a6b1e1;
+    border-bottom-right-radius: 20px;
+}
+
+.footer-bottom{
+    background-color: #dcedc1;
+}
+
+.created{
+    text-align: right;
+    padding: 0px 10px;
+}
+.copy-right{
+    padding: 0px 10px;
+}
