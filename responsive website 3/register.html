@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link href="register.css" rel="stylesheet" />
+  <head>
+    <title>Register Form</title>
+  </head>
+  <body class="product">
+    <div class="container"></div>
+    <h2 class="product-title">Register Form</h2>
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+      <article class="container-word">
+        <div>
+          <label for="name">Name: </label>
+          <input type="text" name="name" id="name" required />
+        </div>
+        <div>
+          <label
+            >Password:
+            <input type="password" name="password" required />
+          </label>
+        </div>
+        <div>
+          <label for="email">Email: </label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div>
+          <label for="phone">Phone: </label>
+          <input type="phone" name="phone" id="phone" required />
+        </div>
+
+        <div>
+          <label for="age">Age: </label>
+          <input type="number" name="age" id="age" min="1" max="200" step="1" />
+        </div>
+        <div>
+          <label for="date">Birthdate: </label>
+          <input type="date" name="date" id="date" />
+        </div>
+        <div>
+          Gender:
+          <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male" />
+          </div>
+          <div>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female" />
+          </div>
+        </div>
+        <div>
+          What's your favorite shoe brand?
+          <div>
+            <label for="nike">Nike</label>
+            <input type="checkbox" name="nike" id="nike" />
+          </div>
+          <div>
+            <label for="converse">Converse</label>
+            <input type="checkbox" name="converse" id="converse" />
+          </div>
+          <div>
+            <label for="new-balance">New Balance</label>
+            <input type="checkbox" name="new-balance" id="new-balance" />
+          </div>
+          <div>
+            <label for="fav-color">Favorite color: </label>
+            <select name="fav-color" id="fav-color">
+              <option value="Green">Green</option>
+              <option value="Red">Red</option>
+              <option value="Blue">Blue</option>
+            </select>
+          </div>
+          <div>
+            <label for="feedback">Feedback</label>
+            <textarea id="feedback" name="feedback"></textarea>
+          </div>
+          <input type="hidden" name="hidden" value="NA" />
+          <div>
+            <label for="file">File</label>
+            <input id="file" type="file" name="file" />
+          </div>
+        </div>
+
+        <br />
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </article>
+    </form>
+    <br />
+
+    <a href="index.html" class="back-home">back to home</a>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+.container {
+  width: 200px;
+  margin: 0 auto;
+}
+.product-title {
+  text-align: left;
+  font-size: 22px;
+  text-transform: uppercase;
+  background-color: cornsilk;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.back-home {
+  background-color: brown;
+  border: none;
+  color: #ffff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 7px;
+  width: 100%;
+
+  margin-top: 20px;
+}
+.back-home.hover {
+  color: #000;
+  background-color: #ffff;
+}
+body {
+  color: black;
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+.product {
+  border: 4px solid brown;
+  width: 800px;
+  margin: 50 auto;
+  padding: 50 auto;
+}
+.container-word {
+  margin-left: 10px;
+}
