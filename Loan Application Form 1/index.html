@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loan Application Form</title>
+
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container flexbox">
+      <div id="item1" class="flex-item">Application Form</div>
+    </div>
+
+    <div class="form-style">
+      <p>
+        Please fill in the details in the application form below. Request you to
+        recheck all the information.
+      </p>
+      <p class="inred">All fields marked * are mandatory.</p>
+    </div>
+
+    <form
+      name="form1"
+      method="post"
+      action="#"
+      onsubmit="return findValidate();"
+      autocomplete="off"
+    ></form>
+
+    <div class="container flexbox">
+      <div class="flex-item">Loan Details</div>
+    </div>
+
+    <table>
+      <tr>
+        <td>Loan Amount Required (in Rs):</td>
+        <td width="180">
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+          </div>
+        </td>
+      </tr>
+
+
+
+    <tr>
+      <td>Tenure (in Months):</td>
+      <td>
+        <div class="input-group">
+          <select id="tenure">
+            <option value="">Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">more than 3</option>
+          </select>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+
+    <!-- //Details -->
+    <div class="container flexbox">
+      <div class="flex-item">Personal Details</div>
+    </div>
+
+    <table>
+
+      <tr>
+        <td>First name:</td>
+        <td width="180">
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+          </div>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td >Middle name:</td>
+        <td width="180">
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+          </div>
+        </td>
+      </tr>
+    
+      <tr>
+        <td>Last name:</td>
+        <td width="180">
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+          </div>
+        </td>
+      </tr>
+ 
+    
+
+      <tr>
+        <td>Date of birth:</td>
+        <td width="180">
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Gender:</td>
+        <td span id="gen">
+          <input type="radio" name="gender" value="male" id="male" />Male
+          <input type="radio" name="gender" value="female" id="male" />Female
+        </td>
+      </tr>
+
+      <tr>
+        <td>Marital Status:</td>
+        <td>
+          <div class="input-group">
+            <select id="status">
+              <option value="">Choose your status</option>
+              <option value="single">Single</option>
+              <option value="married">Married</option>
+              <option value="Divorced">Divorced</option>
+              <option value="Widowed">Widowed</option>
+            </select>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Qualification:</td>
+        <td>
+          <div class="input-group">
+            <select id="qualification">
+              <option value="">Choose your qualification</option>
+              <option value="single">O level</option>
+              <option value="married">Diploma</option>
+              <option value="Divorced">Degree</option>
+              <option value="Widowed">Masters and above</option>
+            </select>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Phone number (R):</td>
+        <td width="180">
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+            <td>(STD)</td>
+          </div>
+        </td>
+
+        <td width="180">
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+            <td>(Phone)</td>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Mobile number:</td>
+        <td width="180">
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td width="180">Pls do not prefix U</td>
+      </tr>
+
+      <tr>
+        <td>Current address:</td>
+        <td width="180">
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+          </div>
+          <br />
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+          </div>
+          <br />
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>State:</td>
+        <td>
+          <div class="input-group">
+            <select id="state">
+              <option value="">Choose your state</option>
+              <option value="us">US</option>
+              <option value="asia">Asia</option>
+              <option value="europe">Europe</option>
+            </select>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>City:</td>
+        <td>
+          <div class="input-group">
+            <select id="city">
+              <option value="">City</option>
+              <option value="us">US</option>
+              <option value="asia">Asia</option>
+              <option value="europe">Europe</option>
+            </select>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Pin Code:</td>
+        <td width="180">
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Years at residence:</td>
+        <td>
+          <div class="input-group">
+            <select id="year">
+              <option value="">Year</option>
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+            </select>
+          </div>
+        </td>
+
+        <td>
+          <div class="input-group">
+            <select id="month">
+              <option value="">Month</option>
+              <option value="jan">Jan</option>
+              <option value="feb">Feb</option>
+              <option value="mar">Mar</option>
+            </select>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Residence Type:</td>
+        <td>
+          <div class="input-group">
+            <select id="residence-type">
+              <option value="">Select catagory</option>
+              <option value="hdb">HDB</option>
+              <option value="condo">Condo</option>
+              <option value="landed">Landed</option>
+            </select>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Residential Status:</td>
+        <td>
+          <div class="input-group">
+            <select id="residence-status">
+              <option value="">Select catagory</option>
+              <option value="citizen">citizen</option>
+              <option value="pr">PR</option>
+              <option value="foreigner">Foreigner</option>
+            </select>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Monthly Rent:</td>
+        <td width="180">
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>No. of Dependents:</td>
+        <td>
+          <div class="input-group">
+            <select id="dependents">
+              <option value="">Select</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4 and above</option>
+            </select>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Spouse Qualification:</td>
+        <td>
+          <div class="input-group">
+            <select id="spouse-qualification">
+              <option value="married">Diploma</option>
+              <option value="Divorced">Degree</option>
+              <option value="Widowed">Masters and above</option>
+            </select>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Spouse Occupation:</td>
+        <td>
+          <div class="input-group">
+            <select id="spouse-qualification">
+              <option value="it">IT</option>
+              <option value="marketing">Marketing</option>
+              <option value="self-employed">Self-employed</option>
+            </select>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Permanent address:</td>
+        <td width="180">
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+          </div>
+          <br />
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+          </div>
+          <br />
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Same as current address</td>
+
+        </td>
+      </tr>
+
+      <tr>
+        <td>Email Address:</td>
+        <td width="180">
+          <div class="input-group">
+            <input type="text" name="fname" size="20" />
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+
+          <input class="button" type="submit" name="Submit" class="btn"/>
+          <input class="button" type="reset" name="Reset" class="btn"/>
+
+        </td>
+      </tr>
+
+    </div>
+  </body>
+</html>
