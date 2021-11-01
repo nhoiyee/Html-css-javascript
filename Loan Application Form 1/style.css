@@ -1,0 +1,27 @@
+.inred {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+.flex-item {
+  flex-grow: 1;
+  align-content: space-around;
+  height: 30px;
+  background-color: aliceblue;
+  /* margin: 10px; */
+}
+
+.button {
+  background-color: #4592d1;
+  border: none;
+  color: rgb(255, 255, 255);
+  /* padding: 15px 32px; */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
