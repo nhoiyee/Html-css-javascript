@@ -1,0 +1,123 @@
+#item1 {
+  background-color: rgb(36, 87, 131);
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+
+.flex-item {
+  flex-grow: 1;
+  align-content: space-around;
+  color: black;
+  /* font-weight: bold; */
+  font-size: 18px;
+  height: 30px;
+  background-color: #cccccc;
+  /* margin: 10px; */
+}
+
+.button {
+  background-color: rgb(36, 87, 131);
+  border: none;
+  color: rgb(255, 255, 255);
+  /* padding: 15px 32px; */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+/* Loan Details top */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* Loan Details bottom */
+
+/* Personal Details  top */
+.wrapper3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* Personal Details  bottom */
+
+/* Date of birth top */
+
+.wrapper4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* .wrapper > div {
+  padding: 1em;
+  background: #eee;
+}
+
+.wrapper > div:nth-child(odd) {
+  background: #ddd;
+} */
+
+/* dateofbirth top */
+
+[type="date"] {
+  background: #ffffa0
+    url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)
+    97% 50% no-repeat;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.birth {
+  background-color: #ffffa0;
+  padding: 3px 5px;
+  width: 156px;
+}
+
+/* dateofbirth bottom */
+
+/* email address bottom */
+.wrapper5 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 2fr 2fr;
+}
+
+.wrapper6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr 1fr;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+.btn {
+  display: block;
+  height: 10px;
+  width: 10px;
+  border-radius: 10%;
+}
+
+div {
+  color: #0057aa;
+}
+
+.yellowfill {
+  background-color: #ffffa0;
+}
+
+.greyfill {
+  background-color: #e6e6e6;
+}
